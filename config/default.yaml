@@ -1,0 +1,19 @@
+name: "Agent API"
+description: "Default configuration — customize this file for your agents."
+port: 8000
+
+auth:
+  enabled: true
+  api_keys:
+    - "sk-change-me-to-a-real-key"
+
+rate_limit:
+  requests_per_minute: 60
+
+agents:
+  - name: "echo"
+    type: "cli"
+    command: "echo '{input}'"
+    method: "POST"
+    path: "/echo"
+    description: "Echo back the input (demo agent)"
