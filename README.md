@@ -1,3 +1,5 @@
+[English](README.md) | [中文](README_CN.md)
+
 # Agent API
 
 Turn any AI agent into an API service — one config file, instant API with auth, rate limiting, logging, and docs.
